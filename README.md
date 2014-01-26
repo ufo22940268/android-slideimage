@@ -4,7 +4,7 @@
 
 SlideImage会在滑动图片之后把图片从界面上删除。
 
-#使用方法
+##使用方法
 
 * `git clone https://github.com/ufo22940268/android-slideimage.git`
 * `cd android-slideimage`

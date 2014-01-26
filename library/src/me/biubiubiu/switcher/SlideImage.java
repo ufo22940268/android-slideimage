@@ -46,7 +46,6 @@ public class SlideImage extends LinearLayout {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        System.out.println("--------------------" + "onTouchEvent" + "--------------------");
         int action = event.getAction();
         if (action == MotionEvent.ACTION_DOWN) {
             mPressedY = event.getY();
@@ -112,7 +111,7 @@ public class SlideImage extends LinearLayout {
             }
 
             public  void  onAnimationEnd(Animator animation) {
-                // SlideImage.this.setVisibility(View.GONE);
+                ((ViewManager)getParent()).removeView(SlideImage.this);
             }
 
             public  void  onAnimationRepeat(Animator animation) {

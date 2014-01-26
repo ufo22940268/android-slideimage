@@ -1,6 +1,6 @@
-package me.biubiubiu.switcher.sample;
+package me.biubiubiu.slider.sample;
 
-import me.biubiubiu.switcher.sample.R;
+import me.biubiubiu.slider.sample.R;
 
 import android.util.*;
 import android.widget.*;
@@ -17,7 +17,7 @@ import android.view.animation.*;
 import android.text.TextUtils;
 
 import java.util.*;
-import me.biubiubiu.switcher.SlideImage;
+import me.biubiubiu.slider.SlideImage;
 
 public class SampleActivity extends Activity {
 

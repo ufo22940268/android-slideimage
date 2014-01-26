@@ -1,6 +1,6 @@
-package me.biubiubiu.switcher;
+package me.biubiubiu.slider;
 
-import me.biubiubiu.switcher.R;
+import me.biubiubiu.slider.R;
 
 import android.util.*;
 import android.widget.*;
